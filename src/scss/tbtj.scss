@@ -1,0 +1,83 @@
+.tbtj {
+    .pplrz-header {
+        >span {
+            padding-left: 0;
+            background-image: unset;
+        }
+        >span:before {
+            content: "";
+            position: relative;
+            top: -3px;
+            vertical-align: top;
+            display: inline-block;
+            margin-right: 10px;
+            width: 40px;
+            height: 34px;
+            background: url(../img/icons.png) -141px -780px no-repeat;
+        }
+    }
+    .pplrz-content {
+        height: auto!important;
+    }
+    .pplrzCtt-a {
+        height: 160px!important;
+        .videoBox {
+            cursor: pointer;
+        }
+        .videoBox:hover + div {
+            >a {
+                color: #00a1d6;
+            }
+        }
+        >div:last-child {
+            height: 60px;
+            >div {
+                height: 20px;
+                line-height: 20px;
+                >a {
+                    display: inline-block;
+                    width: 130px;
+                    height: 20px;
+                    >img {
+                        position: relative;
+                        top: -30px;
+                        vertical-align: top;
+                        height: 45px;
+                        width: 45px;
+                        border-radius: 50%;
+                        border: 2px solid #fff;
+                    }
+                    >span{
+                        display: inline-block;
+                        width: 68px;
+                        height: 20px;
+                    }
+                    >img:hover+span {
+                        color: #00a1d6;
+                    }
+                    >span:hover {
+                        color: #00a1d6;
+                    }
+                }
+                >span {
+                    display: inline-block;
+                    width: 25px;
+                    height: 20px;
+                    color: #aaa;
+                    overflow: hidden;
+                }
+            }
+            >a {
+                display: block;
+                height: 40px;
+                line-height: 20px;
+                padding-top: 0;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            >a:hover {
+                color: #00a1d6;
+            }
+        }
+    }
+}

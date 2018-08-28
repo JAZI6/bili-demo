@@ -1,0 +1,45 @@
+.fjDongTai {
+  margin-bottom: 40px; }
+
+.fjdtLftHdrLft-topic {
+  font-size: 18px !important; }
+
+.fjdtLftHdr-left .blueNav > li:after {
+  bottom: -0.5px !important; }
+
+.fjdtRt-carousel {
+  position: relative;
+  border-radius: 4px; }
+  .fjdtRt-carousel .sctnRtCttUlLiCrsl-ul {
+    width: 520px; }
+    .fjdtRt-carousel .sctnRtCttUlLiCrsl-ul > li {
+      height: 268px; }
+      .fjdtRt-carousel .sctnRtCttUlLiCrsl-ul > li > a {
+        height: 268px; }
+  .fjdtRt-carousel > div {
+    position: absolute;
+    width: 260px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)); }
+    .fjdtRt-carousel > div > ul {
+      float: left;
+      height: 40px; }
+    .fjdtRt-carousel > div > ul:first-child {
+      width: 180px; }
+      .fjdtRt-carousel > div > ul:first-child > li {
+        display: none;
+        color: #fff; }
+        .fjdtRt-carousel > div > ul:first-child > li > a {
+          display: block;
+          height: 40px;
+          line-height: 40px;
+          padding-left: 10px; }
+      .fjdtRt-carousel > div > ul:first-child > li:first-child {
+        display: block; }
+    .fjdtRt-carousel > div .nextCarousel-dot {
+      float: right;
+      margin-right: 20px;
+      line-height: 40px;
+      width: 60px; }

@@ -1,0 +1,60 @@
+.fjDongTai {
+    margin-bottom: 40px;
+}
+.fjdtLftHdrLft-topic {
+    font-size: 18px!important;
+}
+.fjdtLftHdr-left {
+    .blueNav {
+        >li:after {
+            bottom: -.5px!important;
+        }
+    }
+}
+.fjdtRt-carousel {
+    position: relative;
+    border-radius: 4px;
+    .sctnRtCttUlLiCrsl-ul {
+        width: 520px;
+        >li {
+            height: 268px;
+            >a {
+                height: 268px;
+            }
+        }
+    }
+    >div {
+        position: absolute;
+        width: 260px;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        background: linear-gradient(transparent,rgba(0,0,0,.5));
+        >ul {
+            float: left;
+            height: 40px;
+        }
+        >ul:first-child {
+            width: 180px;
+            >li {
+                display: none;
+                color: #fff;
+                >a {
+                    display: block;
+                    height: 40px;
+                    line-height: 40px;
+                    padding-left: 10px;
+                }
+            }
+            >li:first-child {
+                display: block;
+            }
+        }
+        .nextCarousel-dot {
+            float: right;
+            margin-right: 20px;
+            line-height: 40px;
+            width: 60px;
+        }
+    }
+}

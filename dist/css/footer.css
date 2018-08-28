@@ -1,0 +1,173 @@
+footer {
+  background-color: #f6f9fa; }
+  footer > div {
+    margin: 0 auto;
+    padding: 40px 0 80px 0;
+    width: 1160px; }
+
+.footer-top {
+  height: 112px;
+  font-size: 14px;
+  margin-bottom: 25px; }
+  .footer-top > li {
+    float: left;
+    width: 360px;
+    height: 112px;
+    padding: 0 40px; }
+    .footer-top > li > table {
+      height: 95px;
+      width: 100%; }
+      .footer-top > li > table > tbody > tr {
+        vertical-align: top; }
+        .footer-top > li > table > tbody > tr > th {
+          font-weight: normal; }
+        .footer-top > li > table > tbody > tr > td > a {
+          transition: all .2s; }
+        .footer-top > li > table > tbody > tr > td > a:hover {
+          color: #00a1d6; }
+      .footer-top > li > table > tbody > tr:first-child {
+        height: 35px;
+        color: #99a2aa; }
+  .footer-top > li:first-child {
+    padding-left: 0; }
+  .footer-top > li:nth-child(2) {
+    border-left: solid 1px #e5e9ef;
+    border-right: solid 1px #e5e9ef; }
+    .footer-top > li:nth-child(2) > table {
+      height: 112px; }
+      .footer-top > li:nth-child(2) > table > tbody > tr:first-child {
+        height: 30px; }
+  .footer-top > li:last-child {
+    width: 270px;
+    height: 80px;
+    padding-right: 0; }
+    .footer-top > li:last-child > ul {
+      width: 270px;
+      height: 80px; }
+      .footer-top > li:last-child > ul > li {
+        float: left;
+        width: 82px;
+        height: 80px; }
+        .footer-top > li:last-child > ul > li > a {
+          position: relative;
+          display: block;
+          height: 80px;
+          text-align: center; }
+          .footer-top > li:last-child > ul > li > a > span {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: url(../img/icons.png) -1024px -194px no-repeat; }
+          .footer-top > li:last-child > ul > li > a > p {
+            height: 20px;
+            transition: all .2s; }
+          .footer-top > li:last-child > ul > li > a > div {
+            display: none;
+            position: absolute;
+            top: -150px;
+            left: -26px;
+            width: 130px;
+            height: 130px;
+            line-height: 130px;
+            font-size: 0;
+            background: #fff;
+            border: 1px solid #e5e9ef; }
+            .footer-top > li:last-child > ul > li > a > div > img {
+              vertical-align: middle; }
+          .footer-top > li:last-child > ul > li > a > div:after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 14px;
+            bottom: -14px;
+            left: 50%;
+            margin-left: -8px;
+            background: url(../img/bsj.png) no-repeat; }
+      .footer-top > li:last-child > ul > li:nth-child(2) > a > span {
+        background-position: -1024px -322px; }
+      .footer-top > li:last-child > ul > li:last-child > a > span {
+        background-position: -1024px -66px; }
+      .footer-top > li:last-child > ul > li:last-child > a > div {
+        top: -168px;
+        left: -90px;
+        width: 258px;
+        height: 148px;
+        line-height: 148px; }
+      .footer-top > li:last-child > ul > li:hover {
+        color: #00a1d6; }
+        .footer-top > li:last-child > ul > li:hover > a > span {
+          background-position: -1090px -194px; }
+        .footer-top > li:last-child > ul > li:hover > a > div {
+          display: block; }
+      .footer-top > li:last-child > ul > li:nth-child(2):hover > a > span {
+        background-position: -1090px -322px; }
+      .footer-top > li:last-child > ul > li:last-child > a > span {
+        background-position: -1090px -66px; }
+
+.footer-bottom {
+  overflow: hidden; }
+  .footer-bottom > div,
+  .footer-bottom > ul {
+    float: left; }
+  .footer-bottom > div {
+    width: 100px;
+    height: 121px; }
+    .footer-bottom > div > span {
+      display: inline-block;
+      width: 100px;
+      height: 80px;
+      overflow: hidden; }
+    .footer-bottom > div > a {
+      display: block;
+      height: 38px;
+      background: url(../img/websafe.png) no-repeat;
+      animation: ftrBtmDivAAnmt 4s infinite alternate; }
+
+@keyframes ftrBtmDivAAnmt {
+  0% {
+    background-image: url(../img/websafe.png); }
+  50% {
+    background-image: url(../img/confirm.png); }
+  100% {
+    background-image: url(../img/websafe.png); } }
+  .footer-bottom > ul {
+    margin-left: 15px;
+    width: 990px;
+    color: #99a2aa; }
+    .footer-bottom > ul > li {
+      height: 24px;
+      position: relative; }
+      .footer-bottom > ul > li a {
+        transition: all .2s; }
+      .footer-bottom > ul > li a:hover {
+        color: black; }
+      .footer-bottom > ul > li > ul {
+        position: absolute;
+        bottom: 0;
+        overflow: hidden; }
+        .footer-bottom > ul > li > ul > li {
+          float: left;
+          padding: 0 6px;
+          border-left: 1.2px solid #99a2aa; }
+        .footer-bottom > ul > li > ul > li:first-child {
+          padding-left: 0;
+          border-left-width: 0; }
+        .footer-bottom > ul > li > ul > li:last-child {
+          padding-right: 0; }
+      .footer-bottom > ul > li > a {
+        position: absolute;
+        bottom: 0; }
+    .footer-bottom > ul > li:nth-child(3) > ul > li:first-child > a:before {
+      vertical-align: middle;
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 13px;
+      background: url(../img/icons.png) -1367px -89px no-repeat; }
+    .footer-bottom > ul > li:nth-child(3) > ul > li:nth-child(3) > a {
+      padding-left: 15px;
+      background: url(../img/beiantubiao.png) no-repeat; }
+    .footer-bottom > ul > li:nth-child(4) > a > img {
+      vertical-align: text-top;
+      width: 13px;
+      height: 13px; }

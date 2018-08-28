@@ -1,0 +1,191 @@
+.liveStrm {
+    margin-bottom: 50px;
+}
+.lvStrmLftHdr-left {
+    .sctnLftHdrLft-icon {
+        background: url(../img/icons.png) -141px -652px no-repeat;
+    }
+    >span:nth-child(3),
+    >a:last-child {
+        vertical-align: middle;
+        display: inline-block;
+        transition: all .2s;
+    }
+    >span:nth-child(3) {
+        margin-right: 40px;
+        color: #99a2aa;
+        >span {
+            color: #00a1d6;
+        }
+    }
+    >a:last-child {
+        padding-left: 18px;
+        color: #6d757a;
+        background: url(../img/icons.png) -665px -1102px no-repeat;
+    }
+    >a:last-child:hover {
+        color: #00a1d6;
+    }
+}
+.lvStrmLft-content {
+    .sctnLftCtt-a {
+        .videoBox {
+            >span {
+                position: absolute;
+                bottom: 0;
+                width: 75px;
+                height: 20px;
+                line-height: 20px;
+            }
+            >span:nth-child(2) {
+                left: 3px;
+                text-align: left;
+            }
+            >span:nth-child(3) {
+                right: 3px;
+                text-align: right;
+                >span:first-child {
+                    display: inline-block;
+                    width: 13px;
+                    height: 10px;
+                    margin-right: 3.5px;
+                    background-image: url(../img/ppSum.png);
+                }
+            }
+        }
+        .sctnLftCttA-summary {
+            >p:nth-child(2) {
+                height: 20px;
+                line-height: 20px;
+                color: #9ba3ab;
+            }
+        }
+    }
+}
+.lvStrmRtCtt-ul {
+    width: 780px;
+}
+.lvStrmRtCttUlLi-rank {
+    >li {
+        margin-bottom: 14px;
+        height: 40px;
+        >a {
+            float: left;
+        }
+        >a:nth-child(2) {    //a标签里不能放a标签，否则会有bug
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            >img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+        }
+        >a:nth-child(3) {
+            width: 180px;
+            height: 36px;
+            >span {
+                margin-bottom: 4px;
+                display: block;
+                height: 16px;
+                line-height: 16px;
+            }
+            >span:first-child {
+                >span:first-child {
+                    float: left;
+                    max-width: 120px;
+                    color: #222;
+                }
+                >span:last-child {
+                    float: right;
+                    max-width: 60px;
+                    color: #99a2aa;
+                }
+                >span:last-child:before {
+                    position: relative;
+                    top: 1.5px;
+                    margin-right: 3px;
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background: url(../img/eye.png);
+                }
+            }
+            >span:last-child {
+                margin-bottom: 0;
+                color: #99a2aa;
+            }
+        }
+        >a:nth-child(3):hover {
+            >span:first-child {
+                >span:first-child {
+                    color: #00a1d6;
+                }
+            }
+        }
+    }
+}
+.lvStrmRtCttUlLi-carousel {
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    .sctnRtCttUlLiCrsl-ul {
+        width: 780px;
+        >li {
+            height: 268px;
+            >a {
+                height: 268px;
+                >img {
+                    height: 268px;
+                }
+            }
+        }
+    }
+    >div:nth-child(2) {
+        position: absolute;
+        width: 260px;
+        bottom: 0;
+        left: 0;
+        >ul {
+            height: 30px;
+            line-height: 30px;
+        }
+        >ul:first-child {
+            background-color: rgba(0,0,0,.5);
+            * {
+                height: 30px;
+            }
+            >li {
+                display: none;
+                color: #fff;
+                >a {
+                    display: block;
+                    padding-left: 10px;
+                }
+            }
+            >li:first-child {
+                display: block;
+            }
+        }
+        .nextCarousel-dot {
+            background-color: rgba(0, 0, 0, .4);
+        }
+    }
+}
+.lvStrmRtCttUlLi-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 43px;
+    text-align: center;
+    >a {
+        display: inline-block;
+        width: 127px;
+        height: 43px;
+    }
+}

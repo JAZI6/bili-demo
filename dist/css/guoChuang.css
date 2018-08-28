@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.guoChuang {
+  margin-bottom: 50px; }
+  .guoChuang .sctnRtCttUlLi-more {
+    margin-bottom: 15px; }
+  .guoChuang .sctnRtCttUlLiCrsl-ul > li {
+    height: 90px; }
+    .guoChuang .sctnRtCttUlLiCrsl-ul > li > a {
+      height: 90px; }
+  .guoChuang .fjdtRt-carousel {
+    overflow: hidden; }
+    .guoChuang .fjdtRt-carousel > div > ul {
+      height: 32px; }
+
+.gcLftHdrLft-icon {
+  background: url(../img/icons.png) -140px -1611px no-repeat; }
+
+.gcLft-content {
+  display: block;
+  height: 288px; }
+
+/*
+scrollDiv + scrollBar 放在 sctnLft-content里
+.scrollDiv {
+        position: absolute;
+        top: 0;
+    }
+    .scrollBar {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10px;
+        height: 288px;
+        background-color: rgb(221, 221, 221);
+        >span {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 8px;
+            height: 130px;
+            background-color: #fff;
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 6px;
+        }
+    }
+*/

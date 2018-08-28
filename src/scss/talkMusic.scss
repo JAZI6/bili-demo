@@ -1,0 +1,60 @@
+.talkMusic {
+    .sctnLftCtt-a {
+        height: 194px;
+        width: 146px;
+        padding-right: 1px; //确保一行五个
+        .videoBox {
+            width: 146px;
+            height: 146px;
+            >img,
+            .videoBox-mask {
+                width: 146px;
+                height: 146px;
+            }
+        }
+        .videoBox:hover {
+            .clock {
+                display: none;
+            }
+        }
+    }
+    a.sctnLftCtt-a:nth-child(1), a.sctnLftCtt-a:nth-child(2), a.sctnLftCtt-a:nth-child(3), a.sctnLftCtt-a:nth-child(4), a.sctnLftCtt-a:nth-child(5) {
+        margin-bottom: 15px;
+    }
+    .sctnLftCttASmry-div {
+        >span {
+            width: 70px;
+            >span {
+                background-position: -343px -90px;
+            }
+        }
+    }
+    .sctnLftCttASmry-div {
+        >span:last-child {
+            >span {
+                background-position: -343px -154px;
+            }
+        }
+    }
+    .sctnRtCtt-ul {
+        >li {
+            height: auto;
+        }
+    }
+    .sctnRtCttUlLi-rank {
+        >li:first-child {
+            height: 58px;
+            >a {
+                >span {
+                    >img {
+                        height: 58px;
+                        width: 58px;
+                    }
+                }
+            }
+        }
+    }
+}
+.tkMscLftHdrLft-icon {
+    background: url(../img/icons.png) -140px -1675px;
+}

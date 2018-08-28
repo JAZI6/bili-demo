@@ -1,0 +1,147 @@
+.liveStrm {
+  margin-bottom: 50px; }
+
+.lvStrmLftHdr-left .sctnLftHdrLft-icon {
+  background: url(../img/icons.png) -141px -652px no-repeat; }
+
+.lvStrmLftHdr-left > span:nth-child(3),
+.lvStrmLftHdr-left > a:last-child {
+  vertical-align: middle;
+  display: inline-block;
+  transition: all .2s; }
+
+.lvStrmLftHdr-left > span:nth-child(3) {
+  margin-right: 40px;
+  color: #99a2aa; }
+  .lvStrmLftHdr-left > span:nth-child(3) > span {
+    color: #00a1d6; }
+
+.lvStrmLftHdr-left > a:last-child {
+  padding-left: 18px;
+  color: #6d757a;
+  background: url(../img/icons.png) -665px -1102px no-repeat; }
+
+.lvStrmLftHdr-left > a:last-child:hover {
+  color: #00a1d6; }
+
+.lvStrmLft-content .sctnLftCtt-a .videoBox > span {
+  position: absolute;
+  bottom: 0;
+  width: 75px;
+  height: 20px;
+  line-height: 20px; }
+
+.lvStrmLft-content .sctnLftCtt-a .videoBox > span:nth-child(2) {
+  left: 3px;
+  text-align: left; }
+
+.lvStrmLft-content .sctnLftCtt-a .videoBox > span:nth-child(3) {
+  right: 3px;
+  text-align: right; }
+  .lvStrmLft-content .sctnLftCtt-a .videoBox > span:nth-child(3) > span:first-child {
+    display: inline-block;
+    width: 13px;
+    height: 10px;
+    margin-right: 3.5px;
+    background-image: url(../img/ppSum.png); }
+
+.lvStrmLft-content .sctnLftCtt-a .sctnLftCttA-summary > p:nth-child(2) {
+  height: 20px;
+  line-height: 20px;
+  color: #9ba3ab; }
+
+.lvStrmRtCtt-ul {
+  width: 780px; }
+
+.lvStrmRtCttUlLi-rank > li {
+  margin-bottom: 14px;
+  height: 40px; }
+  .lvStrmRtCttUlLi-rank > li > a {
+    float: left; }
+  .lvStrmRtCttUlLi-rank > li > a:nth-child(2) {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(2) > img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+  .lvStrmRtCttUlLi-rank > li > a:nth-child(3) {
+    width: 180px;
+    height: 36px; }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(3) > span {
+      margin-bottom: 4px;
+      display: block;
+      height: 16px;
+      line-height: 16px; }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(3) > span:first-child > span:first-child {
+      float: left;
+      max-width: 120px;
+      color: #222; }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(3) > span:first-child > span:last-child {
+      float: right;
+      max-width: 60px;
+      color: #99a2aa; }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(3) > span:first-child > span:last-child:before {
+      position: relative;
+      top: 1.5px;
+      margin-right: 3px;
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: url(../img/eye.png); }
+    .lvStrmRtCttUlLi-rank > li > a:nth-child(3) > span:last-child {
+      margin-bottom: 0;
+      color: #99a2aa; }
+  .lvStrmRtCttUlLi-rank > li > a:nth-child(3):hover > span:first-child > span:first-child {
+    color: #00a1d6; }
+
+.lvStrmRtCttUlLi-carousel {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden; }
+  .lvStrmRtCttUlLi-carousel .sctnRtCttUlLiCrsl-ul {
+    width: 780px; }
+    .lvStrmRtCttUlLi-carousel .sctnRtCttUlLiCrsl-ul > li {
+      height: 268px; }
+      .lvStrmRtCttUlLi-carousel .sctnRtCttUlLiCrsl-ul > li > a {
+        height: 268px; }
+        .lvStrmRtCttUlLi-carousel .sctnRtCttUlLiCrsl-ul > li > a > img {
+          height: 268px; }
+  .lvStrmRtCttUlLi-carousel > div:nth-child(2) {
+    position: absolute;
+    width: 260px;
+    bottom: 0;
+    left: 0; }
+    .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul {
+      height: 30px;
+      line-height: 30px; }
+    .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul:first-child {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul:first-child * {
+        height: 30px; }
+      .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul:first-child > li {
+        display: none;
+        color: #fff; }
+        .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul:first-child > li > a {
+          display: block;
+          padding-left: 10px; }
+      .lvStrmRtCttUlLi-carousel > div:nth-child(2) > ul:first-child > li:first-child {
+        display: block; }
+    .lvStrmRtCttUlLi-carousel > div:nth-child(2) .nextCarousel-dot {
+      background-color: rgba(0, 0, 0, 0.4); }
+
+.lvStrmRtCttUlLi-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  height: 43px;
+  text-align: center; }
+  .lvStrmRtCttUlLi-img > a {
+    display: inline-block;
+    width: 127px;
+    height: 43px; }

@@ -1,0 +1,64 @@
+.fanju {
+  margin-bottom: 50px; }
+
+.nextFj {
+  margin-bottom: 10px; }
+
+.fjLft-header {
+  margin-bottom: 30px; }
+  .fjLft-header .blueNav {
+    position: relative;
+    height: 100%;
+    top: 7px;
+    font-size: 18px; }
+    .fjLft-header .blueNav > li {
+      margin-left: -5px;
+      vertical-align: middle;
+      width: 70px;
+      height: 20px;
+      padding: 2px 4px 6px;
+      line-height: 20px;
+      text-align: center;
+      border-color: #e5e9ef; }
+    .fjLft-header .blueNav > li:first-child {
+      margin-left: 0; }
+  .fjLft-header > a:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    border: 1px solid #f25d8e;
+    width: 97px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #f25d8e;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: .1s; }
+  .fjLft-header > a:last-child:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 12px;
+    margin: -2px 0 0 5px;
+    background: url(../img/icons.png) -479px -281px no-repeat; }
+  .fjLft-header > a:last-child:hover {
+    color: #fff;
+    background-color: #f25d8e; }
+  .fjLft-header > a:last-child:hover:after {
+    background: url(../img/icons.png) -541px -218px no-repeat; }
+
+.fjLftHdr-left {
+  width: 115px; }
+
+.fjLftHdrLft-icon {
+  background: url(../img/icons.png) -141px -140px no-repeat; }
+
+.fjLftHdrLft-icon + a {
+  margin-right: 0 !important; }
+
+.fjLft-content {
+  display: block;
+  height: 396px; }

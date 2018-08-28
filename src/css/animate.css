@@ -1,0 +1,15 @@
+.animate {
+  margin-bottom: 50px; }
+
+.anmtLftHdrLft-icon {
+  background: url(../img/icons.png) -141px -908px; }
+
+.anmtRtCtt-ul {
+  width: 520px; }
+
+.anmtRtCttUlLi-rank .clock {
+  bottom: 0;
+  right: 0; }
+
+.anmtRtCttUlLi-rank .clock:after {
+  top: -28px; }

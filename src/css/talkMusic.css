@@ -1,0 +1,36 @@
+.talkMusic .sctnLftCtt-a {
+  height: 194px;
+  width: 146px;
+  padding-right: 1px; }
+  .talkMusic .sctnLftCtt-a .videoBox {
+    width: 146px;
+    height: 146px; }
+    .talkMusic .sctnLftCtt-a .videoBox > img,
+    .talkMusic .sctnLftCtt-a .videoBox .videoBox-mask {
+      width: 146px;
+      height: 146px; }
+  .talkMusic .sctnLftCtt-a .videoBox:hover .clock {
+    display: none; }
+
+.talkMusic a.sctnLftCtt-a:nth-child(1), .talkMusic a.sctnLftCtt-a:nth-child(2), .talkMusic a.sctnLftCtt-a:nth-child(3), .talkMusic a.sctnLftCtt-a:nth-child(4), .talkMusic a.sctnLftCtt-a:nth-child(5) {
+  margin-bottom: 15px; }
+
+.talkMusic .sctnLftCttASmry-div > span {
+  width: 70px; }
+  .talkMusic .sctnLftCttASmry-div > span > span {
+    background-position: -343px -90px; }
+
+.talkMusic .sctnLftCttASmry-div > span:last-child > span {
+  background-position: -343px -154px; }
+
+.talkMusic .sctnRtCtt-ul > li {
+  height: auto; }
+
+.talkMusic .sctnRtCttUlLi-rank > li:first-child {
+  height: 58px; }
+  .talkMusic .sctnRtCttUlLi-rank > li:first-child > a > span > img {
+    height: 58px;
+    width: 58px; }
+
+.tkMscLftHdrLft-icon {
+  background: url(../img/icons.png) -140px -1675px; }

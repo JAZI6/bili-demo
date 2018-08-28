@@ -1,0 +1,64 @@
+.tbtj .pplrz-header > span {
+  padding-left: 0;
+  background-image: unset; }
+
+.tbtj .pplrz-header > span:before {
+  content: "";
+  position: relative;
+  top: -3px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height: 34px;
+  background: url(../img/icons.png) -141px -780px no-repeat; }
+
+.tbtj .pplrz-content {
+  height: auto !important; }
+
+.tbtj .pplrzCtt-a {
+  height: 160px !important; }
+  .tbtj .pplrzCtt-a .videoBox {
+    cursor: pointer; }
+  .tbtj .pplrzCtt-a .videoBox:hover + div > a {
+    color: #00a1d6; }
+  .tbtj .pplrzCtt-a > div:last-child {
+    height: 60px; }
+    .tbtj .pplrzCtt-a > div:last-child > div {
+      height: 20px;
+      line-height: 20px; }
+      .tbtj .pplrzCtt-a > div:last-child > div > a {
+        display: inline-block;
+        width: 130px;
+        height: 20px; }
+        .tbtj .pplrzCtt-a > div:last-child > div > a > img {
+          position: relative;
+          top: -30px;
+          vertical-align: top;
+          height: 45px;
+          width: 45px;
+          border-radius: 50%;
+          border: 2px solid #fff; }
+        .tbtj .pplrzCtt-a > div:last-child > div > a > span {
+          display: inline-block;
+          width: 68px;
+          height: 20px; }
+        .tbtj .pplrzCtt-a > div:last-child > div > a > img:hover + span {
+          color: #00a1d6; }
+        .tbtj .pplrzCtt-a > div:last-child > div > a > span:hover {
+          color: #00a1d6; }
+      .tbtj .pplrzCtt-a > div:last-child > div > span {
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        color: #aaa;
+        overflow: hidden; }
+    .tbtj .pplrzCtt-a > div:last-child > a {
+      display: block;
+      height: 40px;
+      line-height: 20px;
+      padding-top: 0;
+      overflow: hidden;
+      cursor: pointer; }
+    .tbtj .pplrzCtt-a > div:last-child > a:hover {
+      color: #00a1d6; }
